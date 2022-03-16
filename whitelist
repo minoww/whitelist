@@ -39,8 +39,7 @@ end
 local success,err = pcall(nameslol)
 
 --// Premium User //--
-while true do 
-    local user_premium__001 = game.Players.cartlvamp --// Replace "User101" with your username (NOT DISPLAY) //--
+local user_premium__001 = game.Players.cartlvamp --// Replace "User101" with your username (NOT DISPLAY) //--
 
 --// Premium Commands //--
 local freeze = function()
@@ -293,5 +292,4 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Text = "D:";
 	Time = 10;
 })
-end
 end
